@@ -1,0 +1,46 @@
+body{
+
+	font-size: 12px;
+}
+#main-container{
+
+	max-width: 850px;
+	margin: 0 auto;
+	background: red;
+}
+
+sup.footnote-wrap{
+
+	white-space: nowrap;
+}
+
+.footnote {
+
+	
+	color: #0645ad;
+	text-decoration: none;
+
+
+}
+.footnote:hover{
+
+	text-decoration: underline;
+}
+
+.footnote:visited{
+
+	color: #0b0080;
+}
+
+
+
+@media screen and (max-width:850px) {
+
+	#main-container{
+
+		padding: 0 2%;
+	}
+
+
+
+ }
